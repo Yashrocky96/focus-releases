@@ -14,6 +14,9 @@ Focus is designed to help you understand where your time goes without the hassle
 
 Built with a strict **local-first** architecture, Focus guarantees that your personal timeline remains entirely on your machine.
 
+<img width="829" height="941" alt="Focus Personal Time Intelligence - Trends" src="https://github.com/user-attachments/assets/677318a1-69a5-4ea7-9ac5-0c20c2b96213" />
+
+
 ### Core Features
 * **Zero-Friction Tracking:** No start/stop timers to click. Focus automatically logs your active applications and window titles while you work.
 * **100% Local & Private:** All activity logs are saved securely and locally on your PC. Your timeline is never uploaded to the cloud.
