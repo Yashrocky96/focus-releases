@@ -1,58 +1,199 @@
-# focus-releases
+# Focus Releases
 
-Used to deploy OS related releases, Windows for now.
+Used to publish operating-system releases for Focus. Windows is currently supported.
 
-**Focus is your personal, zero-friction time intelligence engine for Windows.**
+> **Focus is a private, local-first personal time intelligence application for Windows.**
 
-Welcome to the official release repository for **Focus**. This repository serves as the home for downloading the latest versions, reading release notes, and tracking the development of the Focus desktop application.
+Welcome to the official release repository for **Focus**. This repository is where you can download the latest versions, read release notes, and follow the development of the Focus desktop application.
 
 ---
 
 ## ✨ What is Focus?
 
-Focus is designed to help you understand where your time goes without the hassle of manual data entry. It runs silently in the background, tracks your active applications, and automatically categorizes your workflows. 
+Focus helps you understand where your computer time goes without manual timers or constant data entry.
 
-Built with a strict **local-first** architecture, Focus guarantees that your personal timeline remains entirely on your machine.
+It runs in the background and automatically records your computer activity, including the applications you use. Focus then helps you explore that activity through timelines, application usage, categories, and historical trends.
 
-<img width="829" height="941" alt="Focus Personal Time Intelligence - Trends" src="https://github.com/user-attachments/assets/677318a1-69a5-4ea7-9ac5-0c20c2b96213" />
+Focus is built around a simple principle:
 
+> **Understand your workday. Keep it yours.**
 
-### Core Features
-* **Zero-Friction Tracking:** No start/stop timers to click. Focus automatically logs your active applications and window titles while you work.
-* **100% Local & Private:** All activity logs are saved securely and locally on your PC. Your timeline is never uploaded to the cloud.
-* **Smart Dashboards:** View up to 7 days of detailed activity history and up to 30 days of macro trends completely free.
-* **In-App Feedback:** Found a bug or have a feature request? Send it directly to our development team from the Settings page.
-* **Seamless Auto-Updates:** Focus will automatically notify you and install bug fixes and new features directly within the app.
+Your detailed activity history stays on your computer and is not synced to a Focus cloud account.
+
+Focus is currently in **early beta**.
 
 ---
 
-## 🔒 Privacy & Data Collection
+## 📊 What you can do with Focus
 
-Privacy is the foundational feature of Focus. 
+### Today
 
-* **Your Timeline:** Your tracked time, window titles, and application usage **never leave your computer**. 
-* **Anonymous Telemetry:** To help us stabilize the beta and improve the app, Focus collects strictly anonymous, minimal crash and usage data. No personal data or timeline logs are ever collected. You can disable this telemetry entirely at any time within the app's Settings menu.
+<img width="730" height="909" alt="Screenshot 2026-08-23 152304" src="https://github.com/user-attachments/assets/e16768c1-9519-4362-b6eb-dfa8b89584c4" />
+
+<img width="1204" height="834" alt="Screenshot 2026-08-23 222457" src="https://github.com/user-attachments/assets/65513dd7-a06f-46e2-9e66-d894ad8c5667" />
+
+
+Understand your current or previous day at a glance:
+
+- See your total active time
+- Explore your activity timeline
+- Navigate through historical days
+- See the applications you used
+- View application usage durations
+- Explore your full list of recorded applications
+
+### Automatic activity tracking
+
+Focus works without requiring you to:
+
+- Start timers
+- Stop timers
+- Manually log your activity
+
+It automatically records activity in the background while you use your computer.
+
+### Categories and trends
+
+Focus organizes activity into categories and provides historical views to help you understand broader patterns in how you spend your computer time.
+
+### Manage your activity data
+
+You remain in control of your recorded activity.
+
+Focus allows you to:
+
+- Delete recent activity from a selected time period
+- Delete all recorded activity
+- Keep the application and its data locally on your computer
+
+---
+
+## 🔒 Privacy and data
+
+Privacy is a foundational part of Focus.
+
+### Your detailed activity stays local
+
+Your recorded activity data, including detailed application and website activity, is stored locally on your computer.
+
+Focus does not require an account or cloud synchronization service to provide its core functionality.
+
+### Optional reporting and telemetry
+
+Focus may include optional privacy-controlled reporting that helps improve the application.
+
+Detailed activity history is not used as a replacement for your private timeline. You can control supported reporting preferences from the application's Settings.
 
 ---
 
 ## 📥 Installation
 
-1. Navigate to the [Releases](../../releases/latest) page on this repository.
-2. Download the latest `.exe` installer under the **Assets** section.
-3. Run the installer to set up Focus on your Windows PC.
+1. Open the latest release from the **Releases** section of this repository.
+2. Download the latest Windows `.exe` installer under **Assets**.
+3. Run the installer.
+4. Follow the installation prompts.
+
+After installation, Focus can run in the background and begin recording activity automatically.
 
 ---
 
-## 💬 Support & Feedback
+## 🔄 Updates
 
-As we are currently in beta, your feedback is incredibly valuable. If you run into any issues, have suggestions, or just want to share how Focus is helping your productivity:
-* Use the **Feedback** tool built directly into the app's Settings page.
-* Open an issue right here on GitHub.
+Focus can notify you when a new version is available.
+
+Updates may include:
+
+- Bug fixes
+- Reliability improvements
+- Privacy and data-management improvements
+- New features
+- Security or compatibility fixes
+
+Some releases may be marked as **mandatory** when updating is required to preserve compatibility or fix important issues.
 
 ---
 
-## ⚠️ Windows Defender SmartScreen Note
+## 💬 Support and feedback
 
-Because Focus is currently in its early beta stages, Windows Defender SmartScreen may flag the installer as an "unrecognized app." **To proceed with the installation:**
-1. Click **More info** (the underlined text below the main warning).
-2. Click the **Run anyway** button that appears at the bottom.
+Focus is currently in beta, and real-world feedback is important.
+
+If you encounter an issue, have a feature request, or want to share feedback:
+
+- Use the Feedback tool available in the application
+- Join the Focus community on Discord
+- Open an issue in the relevant GitHub repository when available
+
+The most useful feedback includes:
+
+- What you were trying to do
+- What you expected to happen
+- What actually happened
+- Your Focus version
+
+---
+
+## ⚠️ Windows SmartScreen note
+
+Focus is currently distributed as an **unsigned Windows application**.
+
+Because of this, Windows Defender SmartScreen may display an **"unrecognized app"** warning when you run the installer.
+
+If you downloaded Focus from this official repository and want to continue:
+
+1. Click **More info** on the SmartScreen warning.
+2. Click **Run anyway**.
+
+Windows may display this warning because the application does not yet have an established code-signing reputation.
+
+---
+
+## 🚧 Early beta
+
+Focus is still under active development.
+
+You may encounter:
+
+- Bugs
+- Incorrect activity detection
+- Categorization issues
+- Incomplete or changing features
+- UI changes between releases
+
+Please avoid treating Focus as a replacement for:
+
+- Payroll systems
+- Legal time tracking
+- Attendance compliance systems
+- Enterprise employee monitoring software
+
+Focus is designed as a personal tool for understanding your own computer activity.
+
+---
+
+## 🌱 The direction of Focus
+
+Focus is not trying to become another manual time tracker.
+
+The goal is to make it easier for individuals to understand their computer time privately and automatically.
+
+The long-term direction is:
+
+> **Observe → Understand → Recognize → Suggest → Improve**
+
+Today, Focus primarily helps you **understand** where your time goes.
+
+Future development may build on that foundation to help identify recurring patterns and provide useful, non-judgmental insights about how you spend your time.
+
+---
+
+## 🛠️ Platform support
+
+**Currently supported:**
+
+- Windows
+
+Other platform support may be explored in the future, but is not currently available.
+
+---
+
+Built by **Ripple Studios**.
