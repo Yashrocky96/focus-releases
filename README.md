@@ -32,29 +32,30 @@ Focus is currently in **early beta**.
 
 <img width="1204" height="834" alt="Screenshot 2026-08-23 222457" src="https://github.com/user-attachments/assets/65513dd7-a06f-46e2-9e66-d894ad8c5667" />
 
-
 Understand your current or previous day at a glance:
 
-- See your total active time
-- Explore your activity timeline
-- Navigate through historical days
-- See the applications you used
-- View application usage durations
-- Explore your full list of recorded applications
+* See your total active time
+* Explore your activity timeline
+* Navigate through historical days
+* See the applications you used
+* View application usage durations
+* Explore your full list of recorded applications
 
 ### Automatic activity tracking
 
 Focus works without requiring you to:
 
-- Start timers
-- Stop timers
-- Manually log your activity
+* Start timers
+* Stop timers
+* Manually log your activity
 
 It automatically records activity in the background while you use your computer.
 
-### Categories and trends
+### Categories and Trends
 
 Focus organizes activity into categories and provides historical views to help you understand broader patterns in how you spend your computer time.
+
+**Trends** lets you explore activity across weekly and monthly periods, with improved accuracy in historical comparisons and clearer visibility into how your computer time changes over time.
 
 ### Manage your activity data
 
@@ -62,9 +63,9 @@ You remain in control of your recorded activity.
 
 Focus allows you to:
 
-- Delete recent activity from a selected time period
-- Delete all recorded activity
-- Keep the application and its data locally on your computer
+* Delete recent activity from a selected time period
+* Delete all recorded activity
+* Keep the application and its data locally on your computer
 
 ---
 
@@ -103,11 +104,11 @@ Focus can notify you when a new version is available.
 
 Updates may include:
 
-- Bug fixes
-- Reliability improvements
-- Privacy and data-management improvements
-- New features
-- Security or compatibility fixes
+* Bug fixes
+* Reliability improvements
+* Privacy and data-management improvements
+* New features
+* Security or compatibility fixes
 
 Some releases may be marked as **mandatory** when updating is required to preserve compatibility or fix important issues.
 
@@ -119,16 +120,18 @@ Focus is currently in beta, and real-world feedback is important.
 
 If you encounter an issue, have a feature request, or want to share feedback:
 
-- Use the Feedback tool available in the application
-- Join the Focus community on Discord
-- Open an issue in the relevant GitHub repository when available
+* Use the Feedback tool available in the application
+* Join the Focus community on Discord
+* Open an issue in the relevant GitHub repository when available
 
 The most useful feedback includes:
 
-- What you were trying to do
-- What you expected to happen
-- What actually happened
-- Your Focus version
+* What you were trying to do
+* What you expected to happen
+* What actually happened
+* Your Focus version
+
+Every piece of feedback helps shape Focus.
 
 ---
 
@@ -153,36 +156,11 @@ Focus is still under active development.
 
 You may encounter:
 
-- Bugs
-- Incorrect activity detection
-- Categorization issues
-- Incomplete or changing features
-- UI changes between releases
-
-Please avoid treating Focus as a replacement for:
-
-- Payroll systems
-- Legal time tracking
-- Attendance compliance systems
-- Enterprise employee monitoring software
-
-Focus is designed as a personal tool for understanding your own computer activity.
-
----
-
-## 🌱 The direction of Focus
-
-Focus is not trying to become another manual time tracker.
-
-The goal is to make it easier for individuals to understand their computer time privately and automatically.
-
-The long-term direction is:
-
-> **Observe → Understand → Recognize → Suggest → Improve**
-
-Today, Focus primarily helps you **understand** where your time goes.
-
-Future development may build on that foundation to help identify recurring patterns and provide useful, non-judgmental insights about how you spend your time.
+* Bugs
+* Incorrect activity detection
+* Categorization issues
+* Incomplete or changing features
+* UI changes between releases
 
 ---
 
@@ -190,7 +168,7 @@ Future development may build on that foundation to help identify recurring patte
 
 **Currently supported:**
 
-- Windows
+* Windows
 
 Other platform support may be explored in the future, but is not currently available.
 
