@@ -32,6 +32,8 @@ Use Today to understand a current or previous day:
 - Category distribution
 - Applications with expandable contextual activity, including browser domains where available
 
+![Focus Today dashboard showing live activity, timeline, category distribution, and application summaries](assets/screenshots/today-dashboard-v0.1.9.png)
+
 ### Trends
 
 Use Trends to explore calendar weeks and months:
